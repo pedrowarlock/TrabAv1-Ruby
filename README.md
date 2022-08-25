@@ -1,8 +1,8 @@
 <div align="center">
-<img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/SnakeLogo.png?raw=true" width="80px" height="80px"/>
+  <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/SnakeLogo.png?raw=true" width="80px" height="80px"/>
 
 # Jogo Snake (Jogo da cobrinha) 
-
+</div>
 
 ``` 
 Matéria: Conceitos de Linguagem de Programacao.
