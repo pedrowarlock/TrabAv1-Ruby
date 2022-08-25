@@ -59,13 +59,11 @@ else                    # Qualquer outro valor que não seja os casos de cima
 end
 ```
 
-
 <div align="center">
 <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/eddie.png?raw=true"/>
 </div>
 
 
-
-https://www.ruby2d.com/learn/get-started/
-
-https://www.ruby-lang.org/pt/
+###Links utilizados no projeto:
+>Ruby: https://www.ruby-lang.org/pt/
+>Ruby 2D: https://www.ruby2d.com/learn/get-started/
