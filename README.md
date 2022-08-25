@@ -1,15 +1,13 @@
+<div align="center">
+<img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/SnakeLogo.png?raw=true" width="80px" height="80px"/>
 
-###Jogo Snake (Jogo da cobrinha) 
+<span style="color:green; font-size: 35px;">Jogo Snake (Jogo da cobrinha) </span>
+</div>
 
-![dog](https://pipz.com/static/images/blog/eddie.png)
 
 > **Matéria:** Conceitos de Linguagem de Programacao.
 > **Professor(a):** Adriana.
 > **Avaliação:** 1.
-
-<div align="center">
-<img src="https://desblogada.files.wordpress.com/2021/05/kaka-cordovil-java-developer-2.gif" width="40px" height="40px" />
-</div>
 
 ## Instalação 
 
@@ -61,4 +59,13 @@ else                    # Qualquer outro valor que não seja os casos de cima
 end
 ```
 
-![dog](https://pipz.com/static/images/blog/eddie.png)
+
+<div align="center">
+<img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/eddie.png?raw=true"/>
+</div>
+
+
+
+https://www.ruby2d.com/learn/get-started/
+
+https://www.ruby-lang.org/pt/
