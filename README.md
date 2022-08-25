@@ -17,7 +17,7 @@ Avaliação: 1.
 - Link: [Download](https://www.ruby-lang.org/pt/downloads/)
 
 
-2º. Com o terminal, instale a dependencia do projeto:
+2º. Com o terminal, instale as dependencias do projeto:
 
 Exemplo     | Comando            | Descrição
 :---------: | :------:           |:---------:
