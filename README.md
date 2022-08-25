@@ -43,23 +43,111 @@ C --> D((CARRO))
 C --> E((MOTO))
 
 ```
+## Operadores relacionais.
+Símbolo	| Descrição	| Exemplo	| Resultado
+| ------ | ------| ------| ------
+|`>`	|Maior que	6 > 8	Falso |`6 > 8`|Falso
+|`<`	|Menor que	7< 10	Verdadeiro|`7 < 10`|Verdadeiro
+|`>=`	|Maior ou igual a	8 >= 8	Verdadeiro|`8 >= 8`|Verdadeiro
+|`<=`	|Menor ou igual a	7 <= 2	Falso|`7 <= 2`|Falso
+|`!=`	|Diferente de	!= 8	Verdadeiro|`!= 8`|Verdadeiro
+|`==`	|Igual a	10 = 10	Verdadeiro|`!= 8`|Verdadeiro
+## Operadores lógicos.
+Operador |Descrição |	Exemplo |	Resultado
+| ------ | ------   | ------  | ------
+`and` / `&&` |	E	| `6 > 8 and 7 > 8` |	Falso
+`or` / `||`  |	Ou	| `10 < 10 or 15 > 1` |	Verdadeiro
+|`not` / `!` |	Não	| `!true` ou `not true`	|Falso 
 
-## Switch
+## Estruturas de decisão.
+
+### if/else/elsif
 ```ruby
-case objeto
-when 1
-  puts "Seu número é 1"
-when 2..10              # de 2 ao 10
-  puts "Seu número está entre 2 e 10"
-when 11,13,17,19        # números específicos
-  puts "é um número primo entre 10 e 20"
-when String             # Uma string ou algo que retorne True.
-  puts "é uma String"   
-else                    # Qualquer outro valor que não seja os casos de cima
-  puts "Qualquer outra coisa."
+puts "Informe a sua idade"
+idade = gets.to_i
+
+if idade >= 0 and idade < 18
+  puts "ops! você não tem acesso a esse conteúdo"
+elsif idade >= 18
+  puts "Olá! seja bem vindo, visitante!"
+else
+  puts "Essa não é uma idade válida"
 end
 ```
+_output:_
+```
+20
+Olá! seja bem vindo, visitante!
+```
+### Switch / Case
+```ruby
+  puts "Informe sua idade"
+  idade = gets.to_i
+  
+  case idade
+    when 0..12
+      puts "você é uma criança"
+    when 13..17
+      puts "você é um adolescente"
+    else
+      puts "você é um adulto"
+  end
+```
+_output:_
+```
+5
+você é uma criança
+```
+## Estruturas de repetição.
+### for
 
+exemplo 1:
+```ruby
+for contador in 0..5 do
+    puts "Contagem #{contador}" #interpolação
+end
+```
+_output:_
+```
+Contagem 0
+Contagem 1
+Contagem 2
+Contagem 3
+Contagem 4
+Contagem 5
+```
+
+exemplo 2 com vetor (array):
+```ruby
+linguagens = ["ruby", "java", "python", "php", "lua"]
+
+for linguagem in linguagens do
+    puts "Valor #{linguagem}"
+end
+```
+_output:_
+```
+ruby, java, python, php, lua
+```
+
+### while
+```ruby
+  numero = rand(0..5)
+  puts "Tente adivinhar o número escolhido pela máquina de 0 a 5"
+  numero_chute = gets.to_i
+
+  while numero != numero_chute do
+    puts "Ooops! Tente novamente!"
+    numero_chute = gets.to_i
+  end
+
+  puts "Parabens você acertou! O número é: #{numero}"
+```
+_output:_
+```
+5
+Parabens você acertou! O número é 5
+```
 <div align="center">
 <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/eddie.png?raw=true"/>
 </div>

@@ -1,5 +1,10 @@
 require 'ruby2d'
 
+
+for contador in 0..5 do
+    puts "Contagem #{contador}"
+end
+
 # Set the window size
 set width: 300, height: 200
 set title: 'Howdy', 
@@ -14,4 +19,4 @@ s = Square.new
 s.color = 'red'
 
 # Show the window
-show
+#show
