@@ -1,8 +1,7 @@
 <div align="center">
 <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/SnakeLogo.png?raw=true" width="80px" height="80px"/>
 
-<span style="color:green; font-size: 35px;">Jogo Snake (Jogo da cobrinha) </span>
-</div>
+# Jogo Snake (Jogo da cobrinha) 
 
 
 ``` 
@@ -67,5 +66,6 @@ end
 
 
 ###Links utilizados no projeto:
+
 >Ruby: https://www.ruby-lang.org/pt/
 >Ruby 2D: https://www.ruby2d.com/learn/get-started/
