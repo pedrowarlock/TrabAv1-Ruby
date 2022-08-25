@@ -1,0 +1,11 @@
+{
+    "type": "ruby-debug",
+    "request": "launch",
+    "name": "Active File",
+    "program": "${file}",
+    "programArgs": [],
+    "useBundler": false,
+    "configurations": [
+    
+    ]
+}
