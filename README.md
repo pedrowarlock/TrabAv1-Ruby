@@ -1,11 +1,17 @@
 
-##Projeto AV1 ![dog](https://pipz.com/static/images/blog/eddie.png) 
+###Jogo Snake (Jogo da cobrinha) 
+
+![dog](https://pipz.com/static/images/blog/eddie.png)
+
 > **Matéria:** Conceitos de Linguagem de Programacao.
-> **Professor(a):** Adriana
-> **Avaliação:** 1
+> **Professor(a):** Adriana.
+> **Avaliação:** 1.
 
+<div align="center">
+<img src="https://desblogada.files.wordpress.com/2021/05/kaka-cordovil-java-developer-2.gif" width="40px" height="40px" />
+</div>
 
-## Instalação
+## Instalação 
 
 1º. Após instalar o interpretador da linguagem Ruby:
 - Link: [Download](https://www.ruby-lang.org/pt/downloads/)
@@ -55,3 +61,4 @@ else                    # Qualquer outro valor que não seja os casos de cima
 end
 ```
 
+![dog](https://pipz.com/static/images/blog/eddie.png)
