@@ -13,7 +13,7 @@ Avaliação: 1.
 
 ## Instalação 
 
-1º. Após instalar o interpretador da linguagem Ruby:
+1º. instalar o interpretador da linguagem Ruby:
 - Link: [Download](https://www.ruby-lang.org/pt/downloads/)
 
 
