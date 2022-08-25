@@ -65,7 +65,7 @@ end
 </div>
 
 
-###Links utilizados no projeto:
+**Links utilizados no projeto:**
 
->Ruby: https://www.ruby-lang.org/pt/
->Ruby 2D: https://www.ruby2d.com/learn/get-started/
+Ruby: <https://www.ruby-lang.org/pt/>
+Ruby 2D: <https://www.ruby2d.com/learn/get-started/>
