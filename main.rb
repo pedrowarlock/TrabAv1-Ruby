@@ -1,22 +1,17 @@
 require 'ruby2d'
 
-
-for contador in 0..5 do
-    puts "Contagem #{contador}"
-end
-
 # Set the window size
 set width: 300, height: 200
-set title: 'Howdy', 
-    background: 'navy',
-    width: 800,
-    height: 600
+set title: 'Snake (Jogo da cobrinha)',         # Titulo da janela
+    background: 'navy',     # Cor de fundo
+    width: 800,             # Largura
+    height: 600             # Altura
 
-# Create a new shape
+# Cria uma nova forma geométrica (Quadrado).
 s = Square.new
 
-# Give it some color
+# Define a cor da cobra
 s.color = 'red'
 
-# Show the window
-#show
+# Mostra a janela
+show
