@@ -1,7 +1,7 @@
 <div align="center">
   <img src="https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png" width="118px" height="39px"/>
 
-# Jogo Snake (Jogo da cobrinha) 
+# Jogo de carro 
 </div>
 
 ``` 
