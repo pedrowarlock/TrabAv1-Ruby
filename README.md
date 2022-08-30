@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/SnakeLogo.png?raw=true" width="80px" height="80px"/>
+  <img src="https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png" width="118px" height="39px"/>
 
 # Jogo Snake (Jogo da cobrinha) 
 </div>
