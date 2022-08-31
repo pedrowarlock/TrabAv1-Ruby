@@ -153,10 +153,35 @@ _output:_
 5
 Parabens você acertou! O número é 5
 ```
+
+### Vetores
+
+Array com uma dimensão
+```ruby
+item = [1, 2, 3, 4]
+```
+
+Array de duas dimensões
+```ruby
+item = [
+        [10, 15],
+        [4, 5],
+        [6, 9],
+       ]
+```
+Tabela Hash
+
+```ruby
+car_positions = {
+                  x: 10,
+                  y: 15
+                }
+```
+
+
 <div align="center">
 <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/eddie.png?raw=true"/>
 </div>
-
 
 **Links utilizados no projeto:**
 
