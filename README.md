@@ -61,7 +61,7 @@ Símbolo	| Descrição	| Exemplo	| Resultado
 Operador |Descrição |	Exemplo |	Resultado
 | ------ | ------   | ------  | ------
 `and` / `&&` |	E	| `6 > 8 and 7 > 8` |	Falso
-`or` / `||`  |	Ou	| `10 < 10 or 15 > 1` |	Verdadeiro
+`or` / `\|\|`  |	Ou	| `10 < 10 or 15 > 1` |	Verdadeiro
 |`not` / `!` |	Não	| `!true` ou `not true`	|Falso 
 
 ## Estruturas de decisão.
