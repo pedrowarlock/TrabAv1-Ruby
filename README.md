@@ -1,8 +1,7 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png" width="118px" height="39px"/>
 
+![A cute kitten](https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png)
 # Jogo de carro 
-</div>
+
 
 ``` 
 Matéria: Conceitos de Linguagem de Programacao.
