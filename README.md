@@ -195,7 +195,7 @@ car_positions = {
 
 Vetor com Hashes
 ```ruby
-[
+objects = [
     {
         id: 1,
         sprite: :tree,
