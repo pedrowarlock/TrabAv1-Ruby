@@ -154,6 +154,21 @@ _output:_
 Parabens você acertou! O número é 5
 ```
 
+### until
+```ruby
+until expressão_boleano do
+  ...
+end
+```
+### loop
+```ruby
+loop do
+  if condicional
+    break
+  end
+end
+```
+
 ### Vetores
 
 Array com uma dimensão
