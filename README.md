@@ -1,8 +1,7 @@
-<div align="center">
-  <img src="https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png" width="118px" height="39px"/>
 
+![Car logo](https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png)
 # Jogo de carro 
-</div>
+
 
 ``` 
 Matéria: Conceitos de Linguagem de Programacao.
@@ -239,6 +238,7 @@ objects = [
 ]
 ```
 
+<<<<<<< HEAD
 
 Criação do Mapa:
 
@@ -251,7 +251,8 @@ Como funciona:
 - Verde: Gasolina
 
 O objetivo do jogo é obter tanques de combustiveis antes da gasolina do carro acabar controlando o carro com as teclas CIMA, BAIXO, ESQUERDA, DIREITA do teclado.
-
+=======
+![Car logo](https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/grade.png)
 
 
 <div align="center">
