@@ -248,11 +248,12 @@ Criação do Mapa:
 
 Como funciona:
 - Vermelho: Objeto de colisão.
-- Verde: Gasolina
+- Verde: Gasolina.
+- Azul: Seu carro.
 
 O objetivo do jogo é obter tanques de combustiveis antes da gasolina do carro acabar controlando o carro com as teclas CIMA, BAIXO, ESQUERDA, DIREITA do teclado.
-=======
-![Car logo](https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/grade.png)
+
+![Car logo](https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/jogando.png?raw=true)
 
 
 <div align="center">
@@ -264,3 +265,5 @@ O objetivo do jogo é obter tanques de combustiveis antes da gasolina do carro a
 Ruby: <https://www.ruby-lang.org/pt/>
 
 Ruby 2D: <https://www.ruby2d.com/learn/get-started/>
+
+Curso iniciante: <https://www.udemy.com/course/ruby-para-iniciantes>
