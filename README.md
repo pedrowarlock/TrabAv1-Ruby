@@ -25,6 +25,11 @@ Exemplo     | Comando            | Descrição
 Ruby 2D     | `gem install ruby2d` | Cria interface gráfica em 2D.
 
 
+3º Execução
+  
+  - Abra o terminal no diretório do projeto
+  - Execute o projeto com a linha de comando 
+  Exemplo: `ruby main.rb`
 
 #Ruby (informações)
 ```
