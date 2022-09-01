@@ -1,5 +1,5 @@
 class Car
-    attr_writer :direction
+    attr_writer :direction # Acessor de atributo / Permite ser apenas alterado externamente (não pode ser lido externamente)
 
     def initialize(pos_x = 15, pos_y = 10)
       @car_position = {x: pos_x, y: pos_x}  # Posição do carro
@@ -29,38 +29,47 @@ class Car
             @boom_snd.play           
         end    
     end
-
+    
+    #executa um som ao obter um tanque de combustível
     def point
       @up_snd.play
     end
 
+    #Executa alguns metodos quando o carro bate em um objeto
     def defeated
       self.explosion
       self.hide_car
     end
 
+    #desenha o carro na tela virado para o lado que o botão foi apertado
     def draw
       self.draw_car_facing
     end
-      
+    
+    #Esconde o carro quando ele explode
     def hide_car
       @car_spr.x = -1000
       @car_spr.y = -1000
     end
+
+    #Obtem a próxima posição que o carro está indo
     def move
       new_pos = next_position 
       @car_position[:x] = new_pos[0]
       @car_position[:y] = new_pos[1]
     end
   
+    #retorna a posição X do carro
     def x
       @car_position[:x].to_i
     end
   
+    #retorna a posição Y do carro
     def y
       @car_position[:y].to_i
     end
     
+    #Verifica se a posição do carro tem algum objeto, e retorna se ele bateu em algo ou não
     def hit_object?
         @objects.each do |object|
              if (object[0] == @car_position[:x] && object[1] == @car_position[:y]) 
@@ -70,6 +79,7 @@ class Car
         return false
     end
 
+    #Verifica se o carro pode virar para uma determinada posição
     def can_change_direction_to?(new_direction)
       case @direction
       when 'up' then new_direction != 'down'
@@ -78,8 +88,7 @@ class Car
       when 'right' then new_direction != 'left'
       end
     end  
-    
-
+   
     private
 
     def load_sound(snd)
@@ -106,28 +115,7 @@ class Car
       return OBJ_ITEMS_MAP.find {|father| father[:sprite] == spr }
     end   
     
-    def assemble_object(pos_x, pos_y, spr_obj)
-      spr_map = get_sprite_coordinate(spr_obj)
-      if !spr_map 
-         return nil  
-      end
-      spr = Sprite.new(
-          IMG_SPRITES,
-          x: pos_x * SQUARE_SIZE,
-          y: pos_y * SQUARE_SIZE,
-          animations: {
-          object: [
-                  {
-                      x: spr_map[:coordinate][:x], y: spr_map[:coordinate][:y],
-                      width: spr_map[:size][:w], height: spr_map[:size][:h]
-                  }
-              ]
-          }
-          )
-        @objects.push([pos_x, pos_y])
-        spr.play(animation: :object, loop: true)
-    end
-
+    
     def create_new_car
       return Sprite.new(
         IMG_SPRITES,
@@ -162,6 +150,7 @@ class Car
     )   
     end
 
+    #desenha o carro baseado na visão dele
     def draw_car_facing
       case @direction
       when 'up' 
@@ -184,6 +173,7 @@ class Car
       end
     end
 
+    #Cria a animão de explosão
     def create_animated_explosion
       Sprite.new(
         IMG_SPRITES,
@@ -221,7 +211,7 @@ class Car
     )
     end
 
-
+    # Pega todos objetos do arquivo objects.rc e desenha ele no mapa alinhados em cada posição
     def draw_all_map_object
       #cria todos objetos na tela
       OBJ_ITEMS.each do |object|
@@ -231,6 +221,29 @@ class Car
       end
     end
     
+    #Cria as sprites dos objetos do mapa
+    def assemble_object(pos_x, pos_y, spr_obj)
+      spr_map = get_sprite_coordinate(spr_obj)
+      if !spr_map 
+         return nil  
+      end
+      spr = Sprite.new(
+          IMG_SPRITES,
+          x: pos_x * SQUARE_SIZE,
+          y: pos_y * SQUARE_SIZE,
+          animations: {
+          object: [
+                  {
+                      x: spr_map[:coordinate][:x], y: spr_map[:coordinate][:y],
+                      width: spr_map[:size][:w], height: spr_map[:size][:h]
+                  }
+              ]
+          }
+          )
+        @objects.push([pos_x, pos_y])
+        spr.play(animation: :object, loop: true)
+    end
+
   end
   
   
