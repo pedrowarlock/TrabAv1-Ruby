@@ -1,6 +1,9 @@
 
-![Car logo](https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png)
-# Jogo de carro 
+<div align="center">
+<img src="https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png"/>
+<h2>Jogo de carro </h2>
+</div>
+
 
 
 ``` 
@@ -30,7 +33,14 @@ de tipagem dinâmica e forte, com gerenciamento de memória automático,
 originalmente planejada e desenvolvida no Japão em 1995, 
 por Yukihiro "Matz" Matsumoto, para ser usada como linguagem de script.
 ```
-
+.
+.
+.
+.
+.
+.
+.
+.
 ## Herança
 
 > **BasicObject:**: Classe limpa, sem métodos
