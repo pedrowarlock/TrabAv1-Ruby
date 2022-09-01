@@ -33,14 +33,7 @@ de tipagem dinâmica e forte, com gerenciamento de memória automático,
 originalmente planejada e desenvolvida no Japão em 1995, 
 por Yukihiro "Matz" Matsumoto, para ser usada como linguagem de script.
 ```
-.
-.
-.
-.
-.
-.
-.
-.
+
 ## Herança
 
 > **BasicObject:**: Classe limpa, sem métodos
@@ -57,6 +50,8 @@ C --> D((CARRO))
 C --> E((MOTO))
 
 ```
+
+
 ## Operadores relacionais.
 Símbolo	| Descrição	| Exemplo	| Resultado
 | ------ | ------| ------| ------
