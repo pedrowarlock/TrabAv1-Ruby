@@ -239,6 +239,21 @@ objects = [
 ]
 ```
 
+
+Criação do Mapa:
+
+<div align="center">
+<img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/grade.png?raw=true"/>
+</div>
+
+Como funciona:
+- Vermelho: Objeto de colisão.
+- Verde: Gasolina
+
+O objetivo do jogo é obter tanques de combustiveis antes da gasolina do carro acabar controlando o carro com as teclas CIMA, BAIXO, ESQUERDA, DIREITA do teclado.
+
+
+
 <div align="center">
 <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/eddie.png?raw=true"/>
 </div>
