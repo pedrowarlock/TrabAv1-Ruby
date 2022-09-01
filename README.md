@@ -79,7 +79,7 @@ else
   puts "Essa não é uma idade válida"
 end
 ```
-_output:_
+_Saída:_
 ```
 20
 Olá! seja bem vindo, visitante!
@@ -98,7 +98,7 @@ Olá! seja bem vindo, visitante!
       puts "você é um adulto"
   end
 ```
-_output:_
+_Saída:_
 ```
 5
 você é uma criança
@@ -112,7 +112,7 @@ for contador in 0..5 do
     puts "Contagem #{contador}" #interpolação
 end
 ```
-_output:_
+_Saída:_
 ```
 Contagem 0
 Contagem 1
@@ -130,7 +130,7 @@ for linguagem in linguagens do
     puts "Valor #{linguagem}"
 end
 ```
-_output:_
+_Saída:_
 ```
 ruby, java, python, php, lua
 ```
@@ -148,7 +148,7 @@ ruby, java, python, php, lua
 
   puts "Parabens você acertou! O número é: #{numero}"
 ```
-_output:_
+_Saída:_
 ```
 5
 Parabens você acertou! O número é 5
