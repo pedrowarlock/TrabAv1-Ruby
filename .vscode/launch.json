@@ -4,8 +4,5 @@
     "name": "Active File",
     "program": "${file}",
     "programArgs": [],
-    "useBundler": false,
-    "configurations": [
-    
-    ]
+    "useBundler": false
 }

@@ -1,0 +1,68 @@
+#Arquivos de objetos do mapa
+[
+    {
+        id: 1,
+        sprite: :tree,
+        position: {x: 16, y:14}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 2,
+        sprite: :tree,
+        position: {x: 25, y:14}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 3,
+        sprite: :tree,
+        position: {x: 16, y:16}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 4,
+        sprite: :tree,
+        position: {x: 25, y:16}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 5,
+        sprite: :GreenHotDogCar,
+        position: {x: 19, y:14},
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 6,
+        sprite: :threeBarrels,
+        position: {x: 15, y:4},
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 7,
+        sprite: :barrier,
+        position: {x: 12, y:0},
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 8,
+        sprite: :barrier,
+        position: {x: 13, y:0},
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    }
+]
+
