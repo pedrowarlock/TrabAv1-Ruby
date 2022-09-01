@@ -1,5 +1,5 @@
 
-![A cute kitten](https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png)
+![Car logo](https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png)
 # Jogo de carro 
 
 
@@ -237,6 +237,10 @@ objects = [
     }
 ]
 ```
+
+![Car logo](https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/grade.png)
+
+
 
 <div align="center">
 <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/eddie.png?raw=true"/>
