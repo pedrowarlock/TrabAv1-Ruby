@@ -193,6 +193,51 @@ car_positions = {
                 }
 ```
 
+Vetor com Hashes
+```ruby
+[
+    {
+        id: 1,
+        sprite: :tree,
+        position: {x: 9, y:18}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 2,
+        sprite: :tree,
+        position: {x: 9, y:19}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 3,
+        sprite: :tree,
+        position: {x: 9, y:20}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 5,
+        sprite: :GreenHotDogCar,
+        position: {x: 14, y:19},
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 6,
+        sprite: :threeBarrels,
+        position: {x: 15, y:4},
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    }
+]
+```
 
 <div align="center">
 <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/eddie.png?raw=true"/>
