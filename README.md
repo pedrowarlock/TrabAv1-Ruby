@@ -1,7 +1,7 @@
 <div align="center">
-  <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/SnakeLogo.png?raw=true" width="80px" height="80px"/>
+  <img src="https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png" width="118px" height="39px"/>
 
-# Jogo Snake (Jogo da cobrinha) 
+# Jogo de carro 
 </div>
 
 ``` 
@@ -61,7 +61,7 @@ Símbolo	| Descrição	| Exemplo	| Resultado
 Operador |Descrição |	Exemplo |	Resultado
 | ------ | ------   | ------  | ------
 `and` / `&&` |	E	| `6 > 8 and 7 > 8` |	Falso
-`or` / `||`  |	Ou	| `10 < 10 or 15 > 1` |	Verdadeiro
+`or` / `\|\|`  |	Ou	| `10 < 10 or 15 > 1` |	Verdadeiro
 |`not` / `!` |	Não	| `!true` ou `not true`	|Falso 
 
 ## Estruturas de decisão.
@@ -79,7 +79,7 @@ else
   puts "Essa não é uma idade válida"
 end
 ```
-_output:_
+_Saída:_
 ```
 20
 Olá! seja bem vindo, visitante!
@@ -98,7 +98,7 @@ Olá! seja bem vindo, visitante!
       puts "você é um adulto"
   end
 ```
-_output:_
+_Saída:_
 ```
 5
 você é uma criança
@@ -112,7 +112,7 @@ for contador in 0..5 do
     puts "Contagem #{contador}" #interpolação
 end
 ```
-_output:_
+_Saída:_
 ```
 Contagem 0
 Contagem 1
@@ -130,7 +130,7 @@ for linguagem in linguagens do
     puts "Valor #{linguagem}"
 end
 ```
-_output:_
+_Saída:_
 ```
 ruby, java, python, php, lua
 ```
@@ -148,15 +148,100 @@ ruby, java, python, php, lua
 
   puts "Parabens você acertou! O número é: #{numero}"
 ```
-_output:_
+_Saída:_
 ```
 5
 Parabens você acertou! O número é 5
 ```
+
+### until
+```ruby
+until expressão_boleano do
+  ...
+end
+```
+### loop
+```ruby
+loop do
+  if condicional
+    break
+  end
+end
+```
+
+### Vetores
+
+Array com uma dimensão
+```ruby
+item = [1, 2, 3, 4]
+```
+
+Array de duas dimensões
+```ruby
+item = [
+        [10, 15],
+        [4, 5],
+        [6, 9],
+       ]
+```
+Tabela Hash
+
+```ruby
+car_positions = {
+                  x: 10,
+                  y: 15
+                }
+```
+
+Vetor com Hashes
+```ruby
+objects = [
+    {
+        id: 1,
+        sprite: :tree,
+        position: {x: 9, y:18}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 2,
+        sprite: :tree,
+        position: {x: 9, y:19}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 3,
+        sprite: :tree,
+        position: {x: 9, y:20}, 
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 5,
+        sprite: :GreenHotDogCar,
+        position: {x: 14, y:19},
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    },
+    {
+        id: 6,
+        sprite: :threeBarrels,
+        position: {x: 15, y:4},
+        chunks: {x: 1, y:1},
+        type: :hitbox,
+        layer: 4
+    }
+]
+```
+
 <div align="center">
 <img src="https://github.com/pedrowarlock/TrabAv1-Ruby/blob/master/imgs/eddie.png?raw=true"/>
 </div>
-
 
 **Links utilizados no projeto:**
 
