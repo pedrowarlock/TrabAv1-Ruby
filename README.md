@@ -276,3 +276,5 @@ Ruby: <https://www.ruby-lang.org/pt/>
 Ruby 2D: <https://www.ruby2d.com/learn/get-started/>
 
 Curso iniciante: <https://www.udemy.com/course/ruby-para-iniciantes>
+
+Site de sprite: https://opengameart.org/
