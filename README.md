@@ -243,7 +243,6 @@ objects = [
 ]
 ```
 
-<<<<<<< HEAD
 
 Criação do Mapa:
 
