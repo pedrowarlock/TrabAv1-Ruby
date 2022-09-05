@@ -1,7 +1,7 @@
 
 <div align="center">
 <img src="https://raw.githubusercontent.com/pedrowarlock/TrabAv1-Ruby/master/imgs/carLogo.png"/>
-<h2>Jogo de carro </h2>
+<h2>Ruby aplicado com biblioteca 2D SDL</h2>
 </div>
 
 
